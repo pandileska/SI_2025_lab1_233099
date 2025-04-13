@@ -1,0 +1,15 @@
+*   ed304c1 Merge branch '9-mark-all-tasks-in-a-category-as-completed'
+|\  
+| * f5e39dc Implemented task9
+* |   e8794bf Merge pull request #11 from pandileska/8-mark-a-task-as-completed-by-name
+|\ \  
+| * | ba554e6 Implemented task8
+| |/  
+* |   1893045 Merge pull request #10 from pandileska/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 5324f9e Implemented task1
+|/  
+* 9e9c76c Add starter code
+* 0beb1ee Initial commit

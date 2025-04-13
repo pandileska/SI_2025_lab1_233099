@@ -1,0 +1,61 @@
+13. $ git fetch origin
+From https://github.com/pandileska/SI_2025_lab1_233099
+ * [new branch]      1-remove-a-task-by-name -> origin/1-remove-a-task-by-name
+ * [new branch]      8-mark-a-task-as-completed-by-name -> origin/8-mark-a-task-as-completed-by-name
+ * [new branch]      9-mark-all-tasks-in-a-category-as-completed -> origin/9-mark-all-tasks-in-a-category-as-completed
+
+14. $ git checkout 1-remove-a-task-by-name
+branch '1-remove-a-task-by-name' set up to track 'origin/1-remove-a-task-by-name'.
+Switched to a new branch '1-remove-a-task-by-name'
+
+15. $ nano SI2025Lab1Main.java
+
+16. $ git commit -a -m "Implemented task1"
+warning: in the working copy of 'SI2025Lab1Main.java', LF will be replaced by CRLF the next time Git touches it
+[1-remove-a-task-by-name 5324f9e] Implemented task1
+ 1 file changed, 5 insertions(+)
+
+
+17. $ git push origin 1-remove-a-task-by-name
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 393 bytes | 393.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pandileska/SI_2025_lab1_233099.git
+   9e9c76c..5324f9e  1-remove-a-task-by-name -> 1-remove-a-task-by-name
+
+18. Со клик на копчето Compare and pull request на GitHub 
+
+19. Го повотрив истото за слединте 2 таска
+
+20. На таск1 и таск8 направив merge pull request преку GitHub, а за таск9 следните комади
+
+22. $ git checkout master
+Switched to branch 'master'
+
+ $ git fetch origin master
+
+ $ git merge 9-mark-all-tasks-in-a-category-as-completed
+Auto-merging SI2025Lab1Main.java
+Merge made by the 'ort' strategy.
+ SI2025Lab1Main.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+23. $ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 472 bytes | 472.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pandileska/SI_2025_lab1_233099.git
+   e8794bf..ed304c1  master -> master
+
+
+
+
+
